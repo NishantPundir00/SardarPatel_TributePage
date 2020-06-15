@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inconsolata', monospace;
+    
+
+}
+
+Body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://c.wallhere.com/photos/cc/40/geometry_cyberspace-1472383.jpg!d);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+#title {
+    margin-top: 50px;
+    padding: 10px;
+    padding-top: 20px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.548);
+    align-items: center;
+    font-size: 30px;
+    color: whitesmoke;
+    
+}
+#title p {
+    display: block;
+    position: relative;
+    top: -20px;
+    left: -4px;
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+#image {
+    margin-top: 20px;
+    height: 500px;
+}
+
+
+
+#image img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    box-shadow: 0px 0px 60px rgb(0, 0, 0);
+}
+
+
+#img-caption{
+    margin: 20px;
+    text-align: center;
+    font-size: 15px;
+    color: whitesmoke;
+}
+
+table{
+    margin-top: 20px;
+    padding: 20px;
+    padding-left: 40px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.548);
+    color: white;
+}
+
+td{
+    padding: 5px;
+}
+
+#info {
+    margin: 30px auto;
+    width: 80%;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+#info ul li {
+    margin-top: 20px;
+}
+
+#more {
+    padding: 30px;
+    font-size: 15px;
+    background: rgba(0, 0, 0, 0.548);
+    text-align: center;
+    color: rgb(197, 197, 197);
+}
+
+#more #tribute-link {
+    text-decoration: none;
+    text-transform: none;
+    color: white;
+    cursor: pointer;
+}
